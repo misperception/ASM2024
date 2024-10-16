@@ -1,0 +1,21 @@
+  ## Pseudocódigo ##
+
+  inicio
+  int n1, n2, n3
+  int m
+
+  imprimir("Introduce la primera nota:\t")
+  leer(n1)
+  imprimir("Introduce la segunda nota:\t")
+  leer(n2)
+  imprimir("Introduce la tercera nota:\t")
+  leer(n3)
+
+  m = n1+n2+n3
+  m/=3
+
+  si m<5 entonces:
+    imprimir("Suspenso\n")
+  si no:
+    imprimir("Aprobado\n")
+  fin
